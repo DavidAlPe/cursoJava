@@ -3,7 +3,7 @@ package es.cursojava.inicio.condicionales;
 public class EjemploSwitch {
 
 	public static void main(String[] args) {
-		String mes = "Febrero";
+		String mes = "Diciembre";
 		
 		switch (mes) {
 		case "Enero": 
