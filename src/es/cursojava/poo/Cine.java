@@ -18,13 +18,14 @@ public class Cine {
 		System.out.println("Altura: "+persona1.getAltura());
 		System.out.println("Peso: "+persona1.getPeso());
 
-		Persona persona2 = new Persona ("David", "Alejandre Penia", "756894123");// constructor creado para rellenar datos
+		Persona persona2 = new Persona ("David", "Alejandre Penia", "756894123",40,82,1.74);// constructor creado para rellenar datos
 		System.out.println();
 		
 		System.out.println("PERSONA 2:");
 		System.out.println("Nombre: "+ persona2.getNombre());
 		System.out.println("Apellidos: " + persona2.getApellidos());
 		System.out.println("DNI: " + persona2.getDni());
+		System.out.println("Edad: " + persona2.getEdad());
 		System.out.println("Altura: " + persona2.getAltura());
 		System.out.println("Peso: " + persona2.getPeso());
 		
