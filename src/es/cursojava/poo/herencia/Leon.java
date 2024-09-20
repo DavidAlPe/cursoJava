@@ -10,7 +10,9 @@ public class Leon extends Animal {
 	public void comer() {
 		System.out.println("El animal "+nombre+ " está devorando");
 	}
-	
+	public void beber (){
+		System.out.println("El animal "+nombre+ " está bebiendo mucho 2");
+	}
 
 
 }
